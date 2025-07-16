@@ -173,4 +173,14 @@ paso1.then((valor) => {
         console.log(valorPromesaRota);
 });
 
-
+/*
+    Módulo 1. Menú interactivo
+        Ejercicio de hoy: Crear una pantalla donde se muestre el menú del restaurante/cafetería.
+                            Cada platillo del menú tendrá un botón para agregarse a la cuenta.
+                            Cada que se de click al botón de agregar de un platillo, este se debe agregar a un carrito de compras.
+    
+    Módulo 2.  Gestionar pedidos en línea
+        Ejercicio adicional: Crear una pantalla donde se muestren todos los pedidos hechos a través de internet.
+                            Para cada pedido agregar un botón para entregar el pedido.
+                            Al dar click en el botón, este se debe eliminar de la lista de pedidos.
+*/
