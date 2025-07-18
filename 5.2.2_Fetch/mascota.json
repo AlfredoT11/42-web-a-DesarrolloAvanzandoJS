@@ -1,0 +1,10 @@
+{
+    "nombre": "Bowie",
+    "edad": 2,
+    "estaEsterilizado": true,
+    "informacionContacto": {
+        "nombre": "Tona",
+        "telefono": 5529891111
+    },
+    "hermanosGatos": ["Tigrillo", "Zoro"]
+}
