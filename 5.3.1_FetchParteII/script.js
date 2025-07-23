@@ -60,3 +60,9 @@ document.getElementById("btnEliminarPlatillo").addEventListener('click', (e) => 
     eliminarPlatillo();
     obtenerPlatillos();
 });
+
+/*
+    Ejercio:
+    Mostrar la información de todos los platillos en una aplicación web.
+    Agregarle a cada platillo un botón que diga "Agregar a la orden".
+*/
