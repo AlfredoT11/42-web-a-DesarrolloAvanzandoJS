@@ -1,0 +1,21 @@
+{
+  "platillos": [
+    { "id": 1, "nombre": "Tacos al pastor", "precio": 50, "imagen": " https://cdn7.kiwilimon.com/recetaimagen/13996/640x426/6330.jpg.webp" },
+    { "id": 2, "nombre": "Enchiladas verdes", "precio": 70, "imagen": " https://i.blogs.es/cb58af/enchiladas-h/1366_2000.jpg" },
+    { "id": 3, "nombre": "Pozole", "precio": 80, "imagen": "https://www.cocinavital.mx/wp-content/uploads/2024/05/pozole-rojo-1-634x420.jpg" },
+    { "id": 4, "nombre": "Quesadillas de flor", "precio": 40, "imagen": " http://recetario.lavillita.com.mx/assets/images/recetas/Quesadillas-flor-calabaza-Oaxaca.jpg" },
+    { "id": 5, "nombre": "Mole poblano", "precio": 90, "imagen": "https://www.seriouseats.com/thmb/qxfXHOw3gKw_rKMM87aVxTvSCws=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__10__20121024-227412-mole-poblano-8aa343f2cb384508834ed888a4b65df2.jpg" },
+    { "id": 6, "nombre": "Chiles en nogada", "precio": 120, "imagen": "https://www.aceitesdeolivadeespana.com/sites/default/files/recetas/chiles_en_nogada.jpeg" },
+    { "id": 7, "nombre": "Tamales oaxaqueños", "precio": 35, "imagen": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/68D64DAE-9605-42AC-BDCF-328A509EC776/Derivates/7AC0E9FD-F0DA-410B-9D78-19D3C3BEA1F3.jpg" },
+    { "id": 8, "nombre": "Tostadas de tinga", "precio": 45, "imagen": "https://cdn.elcocinerocasero.com/imagen/receta/1000/2022-11-09-13-26-24/tinga-de-pollo.jpeg" },
+    { "id": 9, "nombre": "Gorditas", "precio": 38, "imagen": "https://www.allrecipes.com/thmb/sxjKsgt2g2ZRNoUW0UUprTioAvY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/78174-gorditas-DDMFS-014-4x3-053f8ba0a56843c6ba854301c88298f9.jpg" },
+    { "id": 10, "nombre": "Sopes", "precio": 42, "imagen": "https://i.blogs.es/853fed/sopes-salsa-verde/1366_2000.jpg" }
+  ],
+  "pedidos": [
+    { "id": 1, "platillos": [1, 3] },
+    { "id": 2, "platillos": [2, 4, 5] },
+    { "id": 3, "platillos": [6, 7] },
+    { "id": 4, "platillos": [8, 9, 10] },
+    { "id": 5, "platillos": [1, 2, 3, 4] }
+  ]
+}
