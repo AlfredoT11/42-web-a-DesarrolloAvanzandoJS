@@ -22,6 +22,7 @@ btnAgregarPlatillo.addEventListener("click", async (event) => {
     let inputNombrePlatillo = document.getElementById("inputNombrePlatillo");
     let inputPrecioPlatillo = document.getElementById("inputPrecioPlatillo");
     let inputEstacionPlatillo = document.getElementById("inputEstacionPlatillo");
+    let inputImagen = document.getElementById("inputImagen");
 
     console.log(inputNombrePlatillo.value);
     console.log(inputPrecioPlatillo.value);
@@ -54,7 +55,8 @@ btnAgregarPlatillo.addEventListener("click", async (event) => {
     let informacionPlatillo = {
         nombre: inputNombrePlatillo.value,
         precio: inputPrecioPlatillo.value,
-        estacionDelPlatillo: inputEstacionPlatillo.value
+        estacionDelPlatillo: inputEstacionPlatillo.value,
+        imagen: inputImagen
     };
 
     /*
