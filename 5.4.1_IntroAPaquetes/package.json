@@ -1,0 +1,16 @@
+{
+  "name": "intro-a-paquetes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "empezar": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "Tona Díaz",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "number-to-text": "^0.4.1",
+    "numero-a-letras": "^1.0.6"
+  }
+}
